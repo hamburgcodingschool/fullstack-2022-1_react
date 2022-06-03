@@ -16,6 +16,19 @@
     margin-top: 20px;
 }
 
+.btn-list {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-list button {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    background-color: purple;
+    margin: 20px 10px;
+    cursor: pointer;
+}
 /* h1 {
     color: red;
 } */
