@@ -1,0 +1,22 @@
+.list  {
+    width: 100%;
+}
+
+.list .list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.list .list-item button {
+    border: 0;
+}
+.remove-btn {
+    color: brown;
+}
+.edit-btn {
+    color: darkcyan;
+}
