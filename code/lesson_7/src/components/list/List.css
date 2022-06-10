@@ -14,9 +14,11 @@
 .list .list-item button {
     border: 0;
 }
+ 
 .remove-btn {
     color: brown;
 }
+
 .edit-btn {
     color: darkcyan;
 }
