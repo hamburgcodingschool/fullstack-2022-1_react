@@ -4,7 +4,7 @@ const UseEffectSession = () => {
 
     /// const [info, setInfo] = useState('posts');
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [posts, setPosts] = useState([]);
 
     console.log(posts)
@@ -31,7 +31,7 @@ const UseEffectSession = () => {
         fetch('https://jsonplaceholder.typicode.com/photos') // 1step I am calling my api, request get
         .then((response) => response.json())
         // .then((dataJson) => console.log(dataJson))
-        .then((json) => setPosts(json), setLoading(true))
+        .then((json) => setPosts(json), setLoading(false))
     }, [])
     console.log(posts)
 
