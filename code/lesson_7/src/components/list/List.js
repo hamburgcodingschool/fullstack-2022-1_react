@@ -7,7 +7,7 @@ const List = ({ items, editItem }) => {
     return(
         <section className='list'>
             {
-                items.map((item) => {
+                items.map((item, index) => {
                     const { id, title } = item;
                     return( 
                         <div className='list-item' key={id}>

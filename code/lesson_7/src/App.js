@@ -85,7 +85,7 @@ const App = () => {
       {
         alert.show && <Alert {...alert} removeAlert={showAlert} list={list} /> 
       }
-      
+      text
       <h1>Grocery Application</h1>
       <form onSubmit={handleSubmit} className='form-container'>
         <input 
@@ -106,6 +106,7 @@ const App = () => {
         <button 
           className='btn-clear'
           onClick={() => console.log('Clear Items')}
+          data-testid="clear"
         >
           Clear items
         </button>
