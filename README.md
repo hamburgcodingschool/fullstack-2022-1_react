@@ -166,10 +166,10 @@ You can choose any of these optional bonus tasks, in any order.
 - You can ask the trainer for help anytime.
 - For communication, use the Slack channel.
 - You get two consultation classes:
-  - Wed, March 15th, 6pm - 8pm
-  - Thu, March 20th, 6pm - 8pm
+  - Wed, June 15th, 6pm - 8pm
+  - Thu, June 20th, 6pm - 8pm
 - The consultation classes take place in our online classroom at NewRow.
-- **Deadline: March 18th 2022, 9pm**
+
 
 
 ## Submission
