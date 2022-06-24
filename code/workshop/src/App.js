@@ -24,6 +24,7 @@ function App() {
           className='btn-clear'
           onClick={() => console.log('Clear Items')}
           data-testid="clear"
+          role='button'
         >
           Clear items
         </button>

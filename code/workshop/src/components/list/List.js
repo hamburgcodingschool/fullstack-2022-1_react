@@ -1,6 +1,6 @@
 import React from 'react';
 
-function List() {
+export default function List() {
   return (
     <section className="App">
         <h1>Title</h1>
@@ -11,4 +11,3 @@ function List() {
   );
 }
 
-export default List;
